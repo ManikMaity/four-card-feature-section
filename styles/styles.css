@@ -47,7 +47,8 @@ body{
     padding: 35px;
     box-shadow: var(--shadow);
     border-top: 4px solid #000;
-    /* position: relative; */
+    position: relative;
+    min-height: 258px;
 }
 
 .card-sec{
@@ -92,8 +93,9 @@ body{
 }
 
 .icon{
-    position: relative;
-    left: 250px;
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
 
 }
 
@@ -104,6 +106,9 @@ body{
         flex-direction: column;
         min-width: 60%;
 
+    }
+    .card1{
+        width: 100%;
     }
     .header1, .header2, .header-p{
         margin: 0 20px;
